@@ -27,6 +27,7 @@ class Test_login_ddt():
             self.password=XLutils.readData(self.path,'Sheet1',r,2)
             self.Expected=XLutils.readData(self.path,'Sheet1',r,3)
 
+
             self.login_page_object.setUsername(self.id)
             self.login_page_object.setPassword(self.password)
             self.login_page_object.clickLogin()
@@ -49,7 +50,6 @@ class Test_login_ddt():
                 if self.Expected=='Fail':
                     assert True==True
                     List_status.append('Pass')
-
 
                 elif self.Expected=='Pass':
                     assert False == False

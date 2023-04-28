@@ -57,10 +57,10 @@ class AddCustomer():
 
     def setGender(self,gender):                    ## correctable
         if gender=="Male":
-            self.driver.find_element(By.XPATH,self.rb_Gender_Xpath_Male).send_keys(gender)
+            self.driver.find_element(By.XPATH,self.rb_Gender_Xpath_Male).click()
 
         elif gender=="Female":
-            self.driver.find_element(By.XPATH,self.rb_Gender_Xpath_Female).send_keys(gender)
+            self.driver.find_element(By.XPATH,self.rb_Gender_Xpath_Female).click()
 
     def setdob(self,dob):
         self.driver.find_element(By.XPATH,self.txt_DOB_Xpath).send_keys(dob)
@@ -69,22 +69,25 @@ class AddCustomer():
         self.driver.find_element(By.XPATH,self.txt_CompanyName_Xpath).send_keys(cname)
 
     def setCustomerRoles(self,Role):
+
+        self.driver.find_element(By.XPATH,self.txt_CustomerRole_Xpath).click()
+        time.sleep(2)
         if Role=='Administrator':
+
             self.list_item=self.driver.find_element(By.XPATH,self.lst_CustomerRole_Administrator_Xpath)
 
-        if Role == 'Forum_Moderators':
+        elif Role == 'Forum_Moderators':
             self.list_item = self.driver.find_element(By.XPATH,self.lst_CustomerRole_Forum_Moderators_Xpath)
 
-        if Role == 'Guests':
-
+        elif Role == 'Guests':
             self.driver.find_element(By.XPATH,self.lst_CustomerRole_Administrator_Xpath).click()
             time.sleep(3)
             self.list_item = self.driver.find_element(By.XPATH,self.lst_CustomerRole_Guests_Xpath)
 
-        if Role == 'Registered':
+        elif Role == 'Registered':
             self.list_item = self.driver.find_element(By.XPATH,self.lst_CustomerRole_Registered_Xpath)
 
-        if Role == 'Vendors':
+        elif Role == 'Vendors':
             self.list_item = self.driver.find_element(By.XPATH,self.lst_CustomerRole_Vendors_Xpath)
 
         self.driver.execute_script("argument[0].click();",self.list_item)
