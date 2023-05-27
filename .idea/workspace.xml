@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebf89954-59b0-43ae-9bc4-adbfacb4c8e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pageobject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot/test_login_Passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshot/test_login_Passed.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
