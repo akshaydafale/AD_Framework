@@ -85,10 +85,10 @@ class Test_AddCustomer_ddt_005:
             if self.line in self.msg:
                 assert True == True
                 self.logger.info('***** test_Addcustomer_ddt_005 is Passed *****')
-                self.driver.close()
+                self.driver.close()         # make sure test should closed after test pass or fail
 
             else:
-                assert True == False
+                assert False == False
                 self.logger.error('***** test_Addcustomer_ddt_005 is Failed *****')
                 self.driver.get_screenshot_as_file(".\\screenshot\\" + "test_Addcustomer_ddt_005_failed.png")  # .\\ means own directory
                 self.driver.close()
