@@ -1,85 +1,112 @@
-# from utilities.Readproperties import Readconfig
-# from utilities.log_generation import Logen
-# from Pageobject.LoginPage import LoginPage
-# import pytest
-#
-#
-# class Test_login_002:
-#     url = Readconfig.getApplicationURL()
-#     email = Readconfig.getUsermail()
-#     password = Readconfig.getPassword()
-#     logger = Logen.loggen()
-#
-#     @pytest.mark.sanity               # custome marker
-#     def test_login(self,setup):
-#
-#         self.driver = setup
-#         self.logger.info('***** Test_login start verifying *****')
-#
-#         self.driver.get(self.url)
-#         self.loginpage_object = LoginPage(self.driver)
-#         self.loginpage_object.setUsername(self.email)
-#         self.loginpage_object.setPassword(self.password)
-#         self.loginpage_object.clickLogin()
-#
-#         actual_title = self.driver.title
-#         expected_title = 'Dashboard / nopCommerce administration'
-#
-#         if actual_title == expected_title:
-#             assert True == True
-#             self.logger.info('***** Test_login test case passed *****')
-#             self.driver.get_screenshot_as_file(".\\screenshot\\"+"test_login_Passed.png")
-#             self.driver.close()
-#
-#         else:
-#             assert True == False
-#             self.logger.info('***** Test_login test case Failed *****')
-#             self.driver.get_screenshot_as_file('.\\screenshot\test_login_failed.png')
-#             self.driver.close()
 
 
-#-----------------------------------------------------------------------------------------------------------------------
-## Date : 26May2023
 
+
+import datetime
 import pytest
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 from Pageobject.LoginPage import LoginPage
+# from utilities.Readproperties import Readconfig
+from utilities.Logger import LogGenerator
 from utilities.Readproperties import Readconfig
-from utilities.log_generation import Logen
+
 
 class Test_Login_001():
 
-    url=Readconfig.getApplicationURL()
+    #url='' --shift to conftest
     email=Readconfig.getUsermail()
     password=Readconfig.getPassword()
-    Logger=Logen.loggen()
+    Logger=LogGenerator.loggen()
 
-    @pytest.mark.sanity
-    def test_login(self,setup):
-        self.Logger.info('****** Test_login_001 start verifying ******')
+    def testLoginPage(self,setup):
+
+        self.Logger.info('test case testLoginPage started')
         self.driver=setup
+        self.Logger.info('invoking browser')
+        self.Logger.info('opening URL')
 
-        self.driver.get(self.url)
+        act_result=self.driver.title
+        exp_result='Your store. Login'
+
+        if act_result==exp_result:
+            assert True
+            self.Logger.info('testLoginPage is passed')
+            self.driver.close()
+        else:
+            assert True==False
+            self.Logger.info('Test LoginHomePage Fail')
+            self.driver.get_screenshot_as_file(".\\screenshot\\" + 'TestLoginHomePage_Failed.png')
+            self.driver.close()
+
+    def test_HomePage(self,setup):
+        self.Logger.info('Test_HomePage is started start')
+        self.driver=setup
+        self.Logger.info('invoking browser')
+        self.Logger.info('opening URL')
+
         self.LoginPage_object=LoginPage(self.driver)
         self.LoginPage_object.setEmail(self.email)
+        self.Logger.info(' entering email -->'+self.email)
         self.LoginPage_object.setPass(self.password)
+        self.Logger.info(' enetring password -->'+self.password)
         self.LoginPage_object.cliclOnLogin()
-
-        self.Logger.info('**** Login succesfull *****')
+        self.Logger.info('click on login')
 
         actual_title=self.driver.title
         expected_tiltle='Dashboard / nopCommerce administration'
 
         if actual_title==expected_tiltle:
-            assert True==True
-            self.Logger.info('**** test_Login passed *****')
-            self.driver.get_screenshot_as_file(".\\screenshot\\" + 'Test_login_Pass.png')
+            assert True
+            self.Logger.info('test_HomePage passed ')
+            self.LoginPage_object.cliclOnLogout()
             self.driver.close()
 
-        if actual_title != expected_tiltle:
-            assert True == False
-            self.Logger.info('**** test_Login passed *****')
+        else:
+            assert False == True
+            self.Logger.info('test_HomePage Failed')
             self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
             self.driver.close()
+
+
+## pytest -rA .\Testcases\Test_login.py --html=Reports\myhtmlreport.html -m 'sanity' -n auto
+
+# Test case for practise
+
+    def test_HomePage_other(self,setup):
+        self.Logger.info('Test_HomePage_other is started start')
+        self.driver=setup
+        self.Logger.info('invoking browser')
+        self.Logger.info('opening URL')
+
+        self.LoginPage_object=LoginPage(self.driver)
+        self.LoginPage_object.setEmail(self.email)
+        self.Logger.info(' entering email')
+        self.LoginPage_object.setPass(self.password)
+        self.Logger.info(' enetring password')
+        self.LoginPage_object.cliclOnLogin()
+        self.Logger.info('click on login')
+
+        msg=self.driver.find_element(By.TAG_NAME,'body').text     # body --small letters
+        title='Dashboard'
+
+        if title in msg:
+            assert True
+            self.Logger.info('test_HomePage passed ')
+            self.LoginPage_object.cliclOnLogout()
+            self.driver.close()
+
+        else:
+            assert False == True
+            self.Logger.info('test_HomePage_other Failed')
+            self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
+            self.driver.close()
+
+
+
+
+
+
 
 
 

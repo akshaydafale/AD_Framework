@@ -1,142 +1,156 @@
 #
-# from selenium import webdriver
+#
 # import pytest
-# from utilities.log_generation import Logen
-# from utilities.Readproperties import Readconfig
 # from Pageobject.LoginPage import LoginPage
-# from utilities import XLutils
+# from utilities.Logger import LogGenerator
+# from utilities.Readproperties import Readconfig
+# from utilities.XLutils import ReadData
 #
 # class Test_login_ddt():
 #
 #     url=Readconfig.getApplicationURL()
-#     path='C:\\Users\\prati\\OneDrive\\Desktop\\IDPASS.xlsx'
-#     logger=Logen.loggen()
+#     Logger=LogGenerator.loggen()
 #
 #
 #     def test_login_ddt(self,setup):
-#         self.driver=setup
-#         self.driver.get(self.url)
-#         self.login_page_object=LoginPage(self.driver)
+#         driver=setup
+#         driver.get(self.url)
 #
-#         self.rowCount=XLutils.getRowCount(self.path,'Sheet1')
+#         path='C:\\Users\\prati\\OneDrive\\Desktop\\IDPASS.xlsx'
+#         self.rowcount=ReadData.getRowCount(path,'Sheet1')
 #
-#         List_status=[]
+#         List=[]
+#         for r in range(2,self.rowcount+1):
 #
-#         for r in range(2,self.rowCount+1):
-#             self.id=XLutils.readData(self.path,'Sheet1',r,1)
-#             self.password=XLutils.readData(self.path,'Sheet1',r,2)
-#             self.Expected=XLutils.readData(self.path,'Sheet1',r,3)
+#             id=ReadData.readData(path,'Sheet1',r,1)
+#             password=ReadData.readData(path,'Sheet1',r,2)
+#             expected=ReadData.readData(path,'Sheet1',r,3)
 #
 #
-#             self.login_page_object.setUsername(self.id)
-#             self.login_page_object.setPassword(self.password)
-#             self.login_page_object.clickLogin()
+#             Login_object=LoginPage(driver)
+#             Login_object.setEmail(id)
+#             Login_object.setPass(password)
+#             Login_object.cliclOnLogin()
 #
-#             actual_result=self.driver.title
+#
+#             driver.get(self.url)
+#             actual_result=driver.title
 #             expected_result='Dashboard / nopCommerce administration'
 #
 #             if actual_result==expected_result:
-#                 if self.Expected=='Pass':
+#                 if expected=='Pass':                 ## this for valid id and password
 #                     assert True==True
-#                     List_status.append('Pass')
-#                     self.login_page_object.clickLogout()
+#                     List.append('Pass')
+#                     Login_object.cliclOnLogout()
 #
-#                 elif self.Expected=='Fail':
+#                 elif expected !='Pass':             ## this for invalid id and password
 #                     assert False==False
-#                     List_status.append('Fail')
-#                     self.login_page_object.clickLogout()
+#                     List.append('Fail')
+#                     Login_object.cliclOnLogout()
 #
-#             elif actual_result!=expected_result:
-#                 if self.Expected=='Fail':
+#             elif actual_result!=expected_result:         ## this for invalid id and password
+#                 if expected=='Fail':
 #                     assert True==True
-#                     List_status.append('Pass')
+#                     List.append('Pass')
 #
-#                 elif self.Expected=='Pass':
-#                     assert False == False
-#                     List_status.append('Fail')
+#                 if expected!='Fail':               ## this for valid id and password
+#                     assert False==False
+#                     List.append('Fail')
 #
-#
-#
-#         if 'Fail' in List_status:
-#             assert True==False
-#             self.logger.info('***** test case failed *****') # test case pased or fail zali ki driver close lrne must i.
-#             self.driver.close()
-#
-#         elif 'Fail' not in List_status:
+#         print(List)
+#         if 'Fail' not in List:
 #             assert True==True
-#             self.logger.info('***** test case passed ****')
-#             self.driver.close()
+#             self.Logger.info('*** test_login_ddt Passed **** ')
+#             driver.close()
+#         elif 'Fail' in List:
+#             assert False==True
+#             self.Logger.info('*** test_login_ddt Failed **** ')
+#             driver.close()
 
 
-##----------------------------------------------------------------------------------------------------------------------
 
+from selenium import webdriver
 import pytest
-from Pageobject.LoginPage import LoginPage
-from utilities.log_generation import Logen
 from utilities.Readproperties import Readconfig
-from utilities import XLutils
-
-class Test_login_ddt():
-
-    url=Readconfig.getApplicationURL()
-    Logger=Logen.loggen()
+from utilities.Logger import LogGenerator
+from utilities.XLutils import ReadData
+from Pageobject.LoginPage import LoginPage  # always remember we have to import CLASS
 
 
-    def test_login_ddt(self,setup):
-        self.driver=setup
-        self.driver.get(self.url)
+class Test_login_DDT_002():
+
+    logger=LogGenerator.loggen()
+
+    def testLoginDDT(self,setup):
+        self.logger.info('Test Test_login_DDT_002 is started')
+        driver=setup
+        self.logger.info('invoking browser')
+        self.logger.info('opening url')
 
         path='C:\\Users\\prati\\OneDrive\\Desktop\\IDPASS.xlsx'
-        self.rowcount=XLutils.getRowCount(path,'Sheet1')
+        rowcount=ReadData.getRowCount(path,'Sheet1')
 
-        List=[]
-        for r in range(2,self.rowcount+1):
+        status =[]
+        for r in range(2,rowcount+1):
 
-            self.id=XLutils.readData(path,'Sheet1',r,1)
-            self.password=XLutils.readData(path,'Sheet1',r,2)
-            self.expected=XLutils.readData(path,'Sheet1',r,3)
+            username=ReadData.readData(path,'Sheet1',r,1)
+            password=ReadData.readData(path,'Sheet1',r,2)
+            expected=ReadData.readData(path,'Sheet1',r,3)
+
+            lp_object=LoginPage(driver)
+            lp_object.setEmail(username)
+            self.logger.info('enter username-->'+username)
+            lp_object.setPass(password)
+            self.logger.info('enter password-->' + password)
+            lp_object.cliclOnLogin()
+            self.logger.info('click on login button' )
+
+            act_result=driver.title
+            exp_result='Your store. Login'
+
+            if act_result==exp_result:
+                self.logger.info('login succesfull with --> '+username+'|'+password)
+                if expected=='Pass':
+                    status.append('Pass')
+                    lp_object.cliclOnLogout()
+                    driver.close()
+                elif expected !='Pass':
+                    status.append('Fail')
+                    lp_object.cliclOnLogout()
+                    driver.close()
+
+            else:
+                self.logger.info('login Failed with --> ' + username + '|' + password)
+                if expected=='Fail':
+                    status.append('Pass')
+                    driver.close()
+                elif expected !='Fail':
+                    status.append('Fail')
+                    driver.close()
+
+        if 'Fail' not in status:
+            assert True
+            self.logger.info('testLoginDDT is Passed')
+        else:
+            assert False==True
+            self.logger.info('testLoginDDT is Failed')
+            driver.get_screenshot_as_file(".\\screenshot\\" + 'testLoginDDT_Failed.png')
 
 
-            self.Login_object=LoginPage(self.driver)
-            self.Login_object.setEmail(self.id)
-            self.Login_object.setPass(self.password)
-            self.Login_object.cliclOnLogin()
-
-            self.driver.get(self.url)
-            actual_result=self.driver.title
-            expected_result='Dashboard / nopCommerce administration'
-
-            if actual_result==expected_result:
-                if self.expected=='Pass':                 ## this for valid id and password
-                    assert True==True
-                    List.append('Pass')
-                    self.Login_object.cliclOnLogout()
-
-                elif self.expected !='Pass':             ## this for invalid id and password
-                    assert False==False
-                    List.append('Fail')
-                    self.Login_object.cliclOnLogout()
 
 
-            elif actual_result!=expected_result:         ## this for invalid id and password
-                if self.expected=='Fail':
-                    assert True==True
-                    List.append('Pass')
 
 
-                if self.expected!='Fail':               ## this for valid id and password
-                    assert False==False
-                    List.append('Fail')
 
-        print(List)
-        if 'Fail' not in List:
-            assert True==True
-            self.Logger.info('*** test_login_ddt Passed **** ')
-            self.driver.close()
-        elif 'Fail' in List:
-            assert False==False
-            self.Logger.info('*** test_login_ddt Failed **** ')
-            self.driver.close()
+
+
+
+
+
+
+
+
+
 
 
 

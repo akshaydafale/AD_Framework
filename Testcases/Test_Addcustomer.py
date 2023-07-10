@@ -1,7 +1,7 @@
 import string
 from selenium import webdriver
 from utilities.Readproperties import Readconfig
-from utilities.log_generation import Logen
+from utilities.Logger import LogGenerator
 from Pageobject.LoginPage import LoginPage
 from Pageobject.AddCustomer import AddCustomer
 import random
@@ -12,7 +12,7 @@ class Test_Addcustomer_002():
     url = Readconfig.getApplicationURL()
     email = Readconfig.getUsermail()
     password = Readconfig.getPassword()
-    logger = Logen.loggen()
+    logger = LogGenerator.loggen()
 
     def test_addcustomer(self, setup):
 

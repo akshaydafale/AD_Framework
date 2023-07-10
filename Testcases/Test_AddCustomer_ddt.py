@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 from utilities.Readproperties import Readconfig
-from utilities.log_generation import Logen
+from utilities.Logger import Logen
 from Pageobject.LoginPage import LoginPage
 from Pageobject.AddCustomer import AddCustomer
 import random

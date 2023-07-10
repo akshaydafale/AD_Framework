@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf89954-59b0-43ae-9bc4-adbfacb4c8e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/AD_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AD_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pageobject/AddCustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/AddCustomer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pageobject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/myHTMLreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_Create_customer_roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Create_customer_roles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/Test_login_Pass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/test_login_Passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/Readproperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/Readproperties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/XLutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/XLutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/log_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/Logger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/prati/PycharmProjects/CT10/AD_framework",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prati/PycharmProjects/CT10/OrangeHrm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python tests.pytest for Test_login.Test_Login_001.test_HomePage">
+    <configuration name="Python tests for Test_login.Test_Login_001.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AD_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test_login.Test_Login_001.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for Test_login_ddt.Test_login_ddt.test_login_ddt" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AD_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,8 +84,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for Test_login.Test_Login_001.test_HomePage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="AD_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test_login.Test_Login_001.test_HomePage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for Test_login.Test_Login_001.test_HomePage" />
+        <item itemvalue="Python tests.Python tests for Test_login.Test_Login_001.test_login" />
         <item itemvalue="Python tests.Python tests for Test_login_ddt.Test_login_ddt.test_login_ddt" />
       </list>
     </recent_temporary>

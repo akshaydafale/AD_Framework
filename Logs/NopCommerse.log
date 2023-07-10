@@ -1,0 +1,7 @@
+2023-07-09 12:35:36,282:INFO:Test_login_DDT_002:testLoginDDT:85:Test Test_login_DDT_002 is started
+2023-07-09 12:35:36,283:INFO:Test_login_DDT_002:testLoginDDT:87:invoking browser
+2023-07-09 12:35:36,283:INFO:Test_login_DDT_002:testLoginDDT:88:opening url
+2023-07-09 12:35:36,774:INFO:Test_login_DDT_002:testLoginDDT:102:enter usernameadmin@yourstore.com
+2023-07-09 12:35:37,180:INFO:Test_login_DDT_002:testLoginDDT:104:enter usernameadmin
+2023-07-09 12:35:41,042:INFO:Test_login_DDT_002:testLoginDDT:106:click on login button
+2023-07-09 12:35:41,055:INFO:Test_login_DDT_002:testLoginDDT:123:login Failed with --> admin@yourstore.com|admin

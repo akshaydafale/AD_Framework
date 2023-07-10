@@ -10,7 +10,7 @@ from Pageobject.Create_customer_roles import Create_customer_roles
 from Pageobject.LoginPage import LoginPage
 from Testcases.conftest import  setup
 from utilities.Readproperties import Readconfig
-from utilities.log_generation import Logen
+from utilities.Logger import Logen
 
 
 
