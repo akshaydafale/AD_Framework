@@ -1,0 +1,1 @@
+pytest -rA .\Testcases\Test_login.py --html=Reports\myhtmlreport.html -m 'sanity' -n auto

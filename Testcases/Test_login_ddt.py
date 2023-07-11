@@ -81,6 +81,7 @@ class Test_login_DDT_002():
 
     logger=LogGenerator.loggen()
 
+    @pytest.mark.sanity
     def testLoginDDT(self,setup):
         self.logger.info('Test Test_login_DDT_002 is started')
         driver=setup

@@ -39,6 +39,7 @@ class Test_Login_001():
             self.driver.get_screenshot_as_file(".\\screenshot\\" + 'TestLoginHomePage_Failed.png')
             self.driver.close()
 
+    @pytest.mark.sanity
     def test_HomePage(self,setup):
         self.Logger.info('Test_HomePage is started start')
         self.driver=setup
@@ -73,6 +74,8 @@ class Test_Login_001():
 
 # Test case for practise
 
+
+    @pytest.mark.sanity
     def test_HomePage_other(self,setup):
         self.Logger.info('Test_HomePage_other is started start')
         self.driver=setup
