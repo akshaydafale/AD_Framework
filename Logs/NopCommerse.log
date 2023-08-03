@@ -5,3 +5,144 @@
 2023-07-09 12:35:37,180:INFO:Test_login_DDT_002:testLoginDDT:104:enter usernameadmin
 2023-07-09 12:35:41,042:INFO:Test_login_DDT_002:testLoginDDT:106:click on login button
 2023-07-09 12:35:41,055:INFO:Test_login_DDT_002:testLoginDDT:123:login Failed with --> admin@yourstore.com|admin
+2023-07-11 18:45:58,572:INFO:Test_Login_001:test_HomePage:47:Test_HomePage is started start
+
+ted start
+2023-07-11 18:45:58,624:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
+2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage_other:85:invoking browser
+2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage:49:invoking browser
+2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage_other:86:opening UR2023-07-11 18:45:58,624:INFO:Test_Login_001:testLoginPage:29:opening URL
+2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage:50:opening URL
+2023-07-11 18:45:58,666:INFO:Test_Login_001:testLoginPage:36:testLoginPage is passed
+2023-07-11 18:45:59,034:INFO:Test_Login_001:test_HomePage:54: entering email -->admin@yourstore.com
+2023-07-11 18:45:59,036:INFO:Test_Login_001:test_HomePage_other:90: entering email
+2023-07-11 18:45:59,126:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
+2023-07-11 18:45:59,152:INFO:Test_Login_001:test_HomePage:56: enetring password -->admin
+2023-07-11 18:45:59,154:INFO:Test_Login_001:test_HomePage_other:92: enetring password
+2023-07-11 18:45:59,221:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
+2023-07-11 18:46:04,651:INFO:Test_Login_001:test_HomePage_other:94:click on login
+2023-07-11 18:46:04,651:INFO:Test_Login_001:test_HomePage:58:click on login
+2023-07-11 18:46:04,664:INFO:Test_Login_001:test_HomePage:65:test_HomePage passed 
+2023-07-11 18:46:04,845:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
+2023-07-11 18:46:04,882:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
+2023-07-11 18:46:04,974:INFO:Test_Login_001:test_HomePage_other:101:test_HomePage passed 
+2023-07-11 19:30:28,218:INFO:Test_Login_001:test_HomePage_other:83:Test_HomePage_other is started start
+2023-07-11 19:30:28,218:INFO:Test_Login_001:testLoginPage:26:test case testLoginPage started
+2023-07-11 19:30:28,219:INFO:Test_Login_001:test_HomePage_other:85:invoking browser
+2023-07-11 19:30:28,219:INFO:Test_Login_001:test_HomePage_other:86:opening URL
+2023-07-11 19:30:28,219:INFO:Test_Login_001:testLoginPage:28:invoking browser
+2023-07-11 19:30:28,219:INFO:Test_Login_001:testLoginPage:29:opening URL
+2023-07-11 19:30:28,219:INFO:Test_login_DDT_002:testLoginDDT:86:Test Test_login_DDT_002 is started
+2023-07-11 19:30:28,220:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
+2023-07-11 19:30:28,220:INFO:Test_login_DDT_002:testLoginDDT:89:opening url
+2023-07-11 19:30:28,220:INFO:Test_Login_001:test_HomePage:47:Test_HomePage is started start
+2023-07-11 19:30:28,220:INFO:Test_Login_001:test_HomePage:49:invoking browser
+2023-07-11 19:30:28,221:INFO:Test_Login_001:test_HomePage:50:opening URL
+2023-07-11 19:30:28,277:INFO:Test_Login_001:testLoginPage:36:testLoginPage is passed
+2023-07-11 19:30:28,648:INFO:Test_Login_001:test_HomePage_other:90: entering email
+2023-07-11 19:30:28,650:INFO:Test_Login_001:test_HomePage:54: entering email -->admin@yourstore.com
+2023-07-11 19:30:28,653:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
+2023-07-11 19:30:28,865:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
+2023-07-11 19:30:28,867:INFO:Test_Login_001:test_HomePage:56: enetring password -->admin
+2023-07-11 19:30:32,428:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
+2023-07-11 19:30:32,439:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
+2023-07-11 19:30:32,683:INFO:Test_Login_001:test_HomePage:58:click on login
+2023-07-11 19:30:32,692:INFO:Test_Login_001:test_HomePage:65:test_HomePage passed 
+2023-07-11 19:30:32,695:INFO:Test_Login_001:test_HomePage_other:94:click on login
+2023-07-11 19:30:32,832:INFO:Test_Login_001:test_HomePage_other:101:test_HomePage passed 
+2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:86:Test Test_login_DDT_002 is started
+2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
+2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:89:opening url
+2023-07-11 19:50:53,979:INFO:Test_Login_001:test_HomePage_other:84:Test_HomePage_other is started start
+2023-07-11 19:50:53,980:INFO:Test_Login_001:test_HomePage_other:86:invoking browser
+2023-07-11 19:50:53,981:INFO:Test_Login_001:test_HomePage_other:87:opening URL
+2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:27:test case testLoginPage started
+2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:29:invoking browser
+2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:30:opening URL
+2023-07-11 19:50:53,990:INFO:Test_Login_001:testLoginPage:37:testLoginPage is passed
+2023-07-11 19:50:54,090:INFO:Test_Login_001:test_HomePage_other:91: entering email
+2023-07-11 19:50:54,131:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
+2023-07-11 19:50:54,186:INFO:Test_Login_001:test_HomePage_other:93: enetring password
+2023-07-11 19:50:54,211:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
+2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
+2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:50:invoking browser
+2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:51:opening URL
+2023-07-11 19:50:55,718:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
+2023-07-11 19:50:55,799:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
+2023-07-11 19:50:57,420:INFO:Test_Login_001:test_HomePage_other:95:click on login
+2023-07-11 19:50:57,458:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
+2023-07-11 19:50:57,471:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
+2023-07-11 19:50:57,589:INFO:Test_Login_001:test_HomePage_other:102:test_HomePage passed 
+2023-07-11 19:50:58,977:INFO:Test_Login_001:test_HomePage:59:click on login
+2023-07-11 19:50:58,984:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
+2023-07-11 20:01:53,841:INFO:Test_Login_001:test_HomePage_other:86:Test_HomePage_other is started start
+2023-07-11 20:01:53,842:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
+2023-07-11 20:01:53,842:INFO:Test_Login_001:test_HomePage_other:89:opening URL
+2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
+2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:50:invoking browser
+2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:51:opening URL
+2023-07-11 20:01:53,962:INFO:Test_Login_001:test_HomePage_other:93: entering email
+2023-07-11 20:01:54,025:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
+2023-07-11 20:01:54,051:INFO:Test_Login_001:test_HomePage_other:95: enetring password
+2023-07-11 20:01:54,115:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
+2023-07-11 20:01:54,428:INFO:Test_login_DDT_002:testLoginDDT:16:Test Test_login_DDT_002 is started
+2023-07-11 20:01:54,429:INFO:Test_login_DDT_002:testLoginDDT:18:invoking browser
+2023-07-11 20:01:54,429:INFO:Test_login_DDT_002:testLoginDDT:19:opening url
+2023-07-11 20:01:54,568:INFO:Test_login_DDT_002:testLoginDDT:33:enter username-->admin@yourstore.com
+2023-07-11 20:01:54,655:INFO:Test_login_DDT_002:testLoginDDT:35:enter password-->admin
+2023-07-11 20:01:56,425:INFO:Test_Login_001:testLoginPage:24:test case testLoginPage started
+2023-07-11 20:01:56,426:INFO:Test_Login_001:testLoginPage:26:invoking browser
+2023-07-11 20:01:56,427:INFO:Test_Login_001:testLoginPage:27:opening URL
+2023-07-11 20:01:56,434:INFO:Test_Login_001:testLoginPage:34:testLoginPage is passed
+2023-07-11 20:01:58,816:INFO:Test_login_DDT_002:testLoginDDT:37:click on login button
+2023-07-11 20:01:58,829:INFO:Test_login_DDT_002:testLoginDDT:54:login Failed with --> admin@yourstore.com|admin
+2023-07-11 20:01:58,898:INFO:Test_Login_001:test_HomePage_other:97:click on login
+2023-07-11 20:01:58,924:INFO:Test_Login_001:test_HomePage:59:click on login
+2023-07-11 20:01:58,928:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
+2023-07-11 20:01:59,043:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 
+2023-07-11 20:13:50,428:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
+rted start
+2023-07-11 20:13:50,445:INFO:Test_Login_001:testLoginPage:27:invoking browser
+2023-07-11 20:13:50,445:INFO:Test_login_DDT_002:testLoginDDT:20:invoking browser
+2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
+2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage:50:invoking browser
+2023-07-11 20:13:50,445:INFO:Test_Login_001:testLoginPage:28:opening URL
+2023-07-11 20:13:50,445:INFO:Test_login_DDT_002:testLoginDDT:21:opening url
+2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage_other:89:opening URL
+2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage:51:opening URL
+2023-07-11 20:13:50,812:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
+2023-07-11 20:13:50,812:INFO:Test_Login_001:test_HomePage_other:93: entering email
+2023-07-11 20:13:50,815:INFO:Test_login_DDT_002:testLoginDDT:35:enter username-->admin@yourstore.com
+2023-07-11 20:13:50,976:INFO:Test_login_DDT_002:testLoginDDT:37:enter password-->admin
+2023-07-11 20:13:50,977:INFO:Test_Login_001:test_HomePage_other:95: enetring password
+2023-07-11 20:13:50,979:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
+2023-07-11 20:13:54,959:INFO:Test_Login_001:test_HomePage_other:97:click on login
+2023-07-11 20:13:54,980:INFO:Test_login_DDT_002:testLoginDDT:39:click on login button
+2023-07-11 20:13:54,992:INFO:Test_login_DDT_002:testLoginDDT:56:login Failed with --> admin@yourstore.com|admin
+2023-07-11 20:13:55,055:INFO:Test_Login_001:test_HomePage:59:click on login
+2023-07-11 20:13:55,065:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
+2023-07-11 20:13:55,137:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 
+2023-07-11 20:29:26,307:INFO:Test_login_DDT_002:testLoginDDT:18:Test Test_login_DDT_002 is started
+2023-07-11 20:29:26,307:INFO:Test_login_DDT_002:testLoginDDT:20:invoking browser
+2023-07-11 20:29:26,308:INFO:Test_login_DDT_002:testLoginDDT:21:opening url
+2023-07-11 20:29:26,737:INFO:Test_login_DDT_002:testLoginDDT:35:enter username-->admin@yourstore.com
+2023-07-11 20:29:27,033:INFO:Test_login_DDT_002:testLoginDDT:37:enter password-->admin
+2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:25:test case testLoginPage started
+2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:27:invoking browser
+2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:28:opening URL
+2023-07-11 20:29:27,449:INFO:Test_Login_001:test_HomePage_other:86:Test_HomePage_other is started start
+2023-07-11 20:29:27,450:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
+2023-07-11 20:29:27,450:INFO:Test_Login_001:test_HomePage_other:89:opening URL
+2023-07-11 20:29:27,805:INFO:Test_Login_001:test_HomePage_other:93: entering email
+2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
+2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:50:invoking browser
+2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:51:opening URL
+2023-07-11 20:29:28,173:INFO:Test_Login_001:test_HomePage_other:95: enetring password
+2023-07-11 20:29:28,346:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
+2023-07-11 20:29:28,698:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
+2023-07-11 20:29:31,900:INFO:Test_login_DDT_002:testLoginDDT:39:click on login button
+2023-07-11 20:29:31,961:INFO:Test_login_DDT_002:testLoginDDT:56:login Failed with --> admin@yourstore.com|admin
+2023-07-11 20:29:32,691:INFO:Test_Login_001:test_HomePage_other:97:click on login
+2023-07-11 20:29:32,715:INFO:Test_Login_001:test_HomePage:59:click on login
+2023-07-11 20:29:32,736:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
+2023-07-11 20:29:33,015:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 

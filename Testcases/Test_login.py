@@ -1,9 +1,9 @@
 
-
-
-
 import datetime
+
+import allure
 import pytest
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from Pageobject.LoginPage import LoginPage
@@ -19,6 +19,7 @@ class Test_Login_001():
     password=Readconfig.getPassword()
     Logger=LogGenerator.loggen()
 
+    @allure.title('nopcommerce_login')
     def testLoginPage(self,setup):
 
         self.Logger.info('test case testLoginPage started')
@@ -31,14 +32,17 @@ class Test_Login_001():
 
         if act_result==exp_result:
             assert True
-            self.Logger.info('testLoginPage is passed')
+            # self.Logger.info('testLoginPage is passed')
+            allure.attach(self.driver.get_screenshot_as_png(),name="testLoginPagePassed",Attachment_type=AttachmentType) # screenshor for allure reports
             self.driver.close()
         else:
             assert True==False
-            self.Logger.info('Test LoginHomePage Fail')
-            self.driver.get_screenshot_as_file(".\\screenshot\\" + 'TestLoginHomePage_Failed.png')
+            # self.Logger.info('Test LoginHomePage Fail')
+            allure.attach(self.driver.get_screenshot_as_png(),name="testLoginPageFailed",Attachment_type=AttachmentType) # screenshor for allure reports
+            # self.driver.get_screenshot_as_file(".\\screenshot\\" + 'TestLoginHomePage_Failed.png')
             self.driver.close()
 
+    @allure.title('nopcommerce_login')
     @pytest.mark.sanity
     def test_HomePage(self,setup):
         self.Logger.info('Test_HomePage is started start')
@@ -60,13 +64,15 @@ class Test_Login_001():
         if actual_title==expected_tiltle:
             assert True
             self.Logger.info('test_HomePage passed ')
+            allure.attach(self.driver.get_screenshot_as_png(),name="test_HomePagePassed",Attachment_type=AttachmentType) # screenshor for allure reports
             self.LoginPage_object.cliclOnLogout()
             self.driver.close()
 
         else:
             assert False == True
             self.Logger.info('test_HomePage Failed')
-            self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
+            allure.attach(self.driver.get_screenshot_as_png(),name="test_HomePageFailed",Attachment_type=AttachmentType) # screenshor for allure reports
+            # self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
             self.driver.close()
 
 
@@ -74,7 +80,7 @@ class Test_Login_001():
 
 # Test case for practise
 
-
+    @allure.title('nopcommerce_login')
     @pytest.mark.sanity
     def test_HomePage_other(self,setup):
         self.Logger.info('Test_HomePage_other is started start')
@@ -96,13 +102,15 @@ class Test_Login_001():
         if title in msg:
             assert True
             self.Logger.info('test_HomePage passed ')
+            allure.attach(self.driver.get_screenshot_as_png(),name="test_HomePage_otherPassed",Attachment_type=AttachmentType) # screenshor for allure reports
             self.LoginPage_object.cliclOnLogout()
             self.driver.close()
 
         else:
             assert False == True
             self.Logger.info('test_HomePage_other Failed')
-            self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
+            allure.attach(self.driver.get_screenshot_as_png(),name="test_HomePage_otherFailed",Attachment_type=AttachmentType) # screenshor for allure reports
+            # self.driver.get_screenshot_as_file(".\\screenshot\\"+'Test_login_Fail.png')
             self.driver.close()
 
 

@@ -1,74 +1,5 @@
-#
-#
-# import pytest
-# from Pageobject.LoginPage import LoginPage
-# from utilities.Logger import LogGenerator
-# from utilities.Readproperties import Readconfig
-# from utilities.XLutils import ReadData
-#
-# class Test_login_ddt():
-#
-#     url=Readconfig.getApplicationURL()
-#     Logger=LogGenerator.loggen()
-#
-#
-#     def test_login_ddt(self,setup):
-#         driver=setup
-#         driver.get(self.url)
-#
-#         path='C:\\Users\\prati\\OneDrive\\Desktop\\IDPASS.xlsx'
-#         self.rowcount=ReadData.getRowCount(path,'Sheet1')
-#
-#         List=[]
-#         for r in range(2,self.rowcount+1):
-#
-#             id=ReadData.readData(path,'Sheet1',r,1)
-#             password=ReadData.readData(path,'Sheet1',r,2)
-#             expected=ReadData.readData(path,'Sheet1',r,3)
-#
-#
-#             Login_object=LoginPage(driver)
-#             Login_object.setEmail(id)
-#             Login_object.setPass(password)
-#             Login_object.cliclOnLogin()
-#
-#
-#             driver.get(self.url)
-#             actual_result=driver.title
-#             expected_result='Dashboard / nopCommerce administration'
-#
-#             if actual_result==expected_result:
-#                 if expected=='Pass':                 ## this for valid id and password
-#                     assert True==True
-#                     List.append('Pass')
-#                     Login_object.cliclOnLogout()
-#
-#                 elif expected !='Pass':             ## this for invalid id and password
-#                     assert False==False
-#                     List.append('Fail')
-#                     Login_object.cliclOnLogout()
-#
-#             elif actual_result!=expected_result:         ## this for invalid id and password
-#                 if expected=='Fail':
-#                     assert True==True
-#                     List.append('Pass')
-#
-#                 if expected!='Fail':               ## this for valid id and password
-#                     assert False==False
-#                     List.append('Fail')
-#
-#         print(List)
-#         if 'Fail' not in List:
-#             assert True==True
-#             self.Logger.info('*** test_login_ddt Passed **** ')
-#             driver.close()
-#         elif 'Fail' in List:
-#             assert False==True
-#             self.Logger.info('*** test_login_ddt Failed **** ')
-#             driver.close()
-
-
-
+import allure
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 import pytest
 from utilities.Readproperties import Readconfig
@@ -81,6 +12,7 @@ class Test_login_DDT_002():
 
     logger=LogGenerator.loggen()
 
+    @allure.title('nopcommerce_login_ddt')
     @pytest.mark.sanity
     def testLoginDDT(self,setup):
         self.logger.info('Test Test_login_DDT_002 is started')
@@ -135,7 +67,9 @@ class Test_login_DDT_002():
         else:
             assert False==True
             self.logger.info('testLoginDDT is Failed')
-            driver.get_screenshot_as_file(".\\screenshot\\" + 'testLoginDDT_Failed.png')
+            # driver.get_screenshot_as_file(".\\screenshot\\" + 'testLoginDDT_Failed.png')
+            allure.attach(driver.get_screenshot_as_png(),name="testLoginDDTFailed",Attachment_type=AttachmentType) # screenshor for allure reports
+
 
 
 
