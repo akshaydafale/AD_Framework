@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf89954-59b0-43ae-9bc4-adbfacb4c8e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pageobject/GiftCard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testcases/Test_Giftcard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/NopCommerse.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/NopCommerse.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pageobject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_AddCustomer_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_Create_customer_roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Create_customer_roles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/myhtmlreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sanity.bat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sanity.bat.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcases/Test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login_ddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/Test_login_Fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/Readproperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/Readproperties.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/prati/PycharmProjects/CT10/Practise_Programme/Programme BY Sagar&quot;,

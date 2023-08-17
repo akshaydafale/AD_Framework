@@ -1,148 +1,161 @@
-2023-07-09 12:35:36,282:INFO:Test_login_DDT_002:testLoginDDT:85:Test Test_login_DDT_002 is started
-2023-07-09 12:35:36,283:INFO:Test_login_DDT_002:testLoginDDT:87:invoking browser
-2023-07-09 12:35:36,283:INFO:Test_login_DDT_002:testLoginDDT:88:opening url
-2023-07-09 12:35:36,774:INFO:Test_login_DDT_002:testLoginDDT:102:enter usernameadmin@yourstore.com
-2023-07-09 12:35:37,180:INFO:Test_login_DDT_002:testLoginDDT:104:enter usernameadmin
-2023-07-09 12:35:41,042:INFO:Test_login_DDT_002:testLoginDDT:106:click on login button
-2023-07-09 12:35:41,055:INFO:Test_login_DDT_002:testLoginDDT:123:login Failed with --> admin@yourstore.com|admin
-2023-07-11 18:45:58,572:INFO:Test_Login_001:test_HomePage:47:Test_HomePage is started start
-
-ted start
-2023-07-11 18:45:58,624:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
-2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage_other:85:invoking browser
-2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage:49:invoking browser
-2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage_other:86:opening UR2023-07-11 18:45:58,624:INFO:Test_Login_001:testLoginPage:29:opening URL
-2023-07-11 18:45:58,624:INFO:Test_Login_001:test_HomePage:50:opening URL
-2023-07-11 18:45:58,666:INFO:Test_Login_001:testLoginPage:36:testLoginPage is passed
-2023-07-11 18:45:59,034:INFO:Test_Login_001:test_HomePage:54: entering email -->admin@yourstore.com
-2023-07-11 18:45:59,036:INFO:Test_Login_001:test_HomePage_other:90: entering email
-2023-07-11 18:45:59,126:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
-2023-07-11 18:45:59,152:INFO:Test_Login_001:test_HomePage:56: enetring password -->admin
-2023-07-11 18:45:59,154:INFO:Test_Login_001:test_HomePage_other:92: enetring password
-2023-07-11 18:45:59,221:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
-2023-07-11 18:46:04,651:INFO:Test_Login_001:test_HomePage_other:94:click on login
-2023-07-11 18:46:04,651:INFO:Test_Login_001:test_HomePage:58:click on login
-2023-07-11 18:46:04,664:INFO:Test_Login_001:test_HomePage:65:test_HomePage passed 
-2023-07-11 18:46:04,845:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
-2023-07-11 18:46:04,882:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
-2023-07-11 18:46:04,974:INFO:Test_Login_001:test_HomePage_other:101:test_HomePage passed 
-2023-07-11 19:30:28,218:INFO:Test_Login_001:test_HomePage_other:83:Test_HomePage_other is started start
-2023-07-11 19:30:28,218:INFO:Test_Login_001:testLoginPage:26:test case testLoginPage started
-2023-07-11 19:30:28,219:INFO:Test_Login_001:test_HomePage_other:85:invoking browser
-2023-07-11 19:30:28,219:INFO:Test_Login_001:test_HomePage_other:86:opening URL
-2023-07-11 19:30:28,219:INFO:Test_Login_001:testLoginPage:28:invoking browser
-2023-07-11 19:30:28,219:INFO:Test_Login_001:testLoginPage:29:opening URL
-2023-07-11 19:30:28,219:INFO:Test_login_DDT_002:testLoginDDT:86:Test Test_login_DDT_002 is started
-2023-07-11 19:30:28,220:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
-2023-07-11 19:30:28,220:INFO:Test_login_DDT_002:testLoginDDT:89:opening url
-2023-07-11 19:30:28,220:INFO:Test_Login_001:test_HomePage:47:Test_HomePage is started start
-2023-07-11 19:30:28,220:INFO:Test_Login_001:test_HomePage:49:invoking browser
-2023-07-11 19:30:28,221:INFO:Test_Login_001:test_HomePage:50:opening URL
-2023-07-11 19:30:28,277:INFO:Test_Login_001:testLoginPage:36:testLoginPage is passed
-2023-07-11 19:30:28,648:INFO:Test_Login_001:test_HomePage_other:90: entering email
-2023-07-11 19:30:28,650:INFO:Test_Login_001:test_HomePage:54: entering email -->admin@yourstore.com
-2023-07-11 19:30:28,653:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
-2023-07-11 19:30:28,865:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
-2023-07-11 19:30:28,867:INFO:Test_Login_001:test_HomePage:56: enetring password -->admin
-2023-07-11 19:30:32,428:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
-2023-07-11 19:30:32,439:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
-2023-07-11 19:30:32,683:INFO:Test_Login_001:test_HomePage:58:click on login
-2023-07-11 19:30:32,692:INFO:Test_Login_001:test_HomePage:65:test_HomePage passed 
-2023-07-11 19:30:32,695:INFO:Test_Login_001:test_HomePage_other:94:click on login
-2023-07-11 19:30:32,832:INFO:Test_Login_001:test_HomePage_other:101:test_HomePage passed 
-2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:86:Test Test_login_DDT_002 is started
-2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:88:invoking browser
-2023-07-11 19:50:53,972:INFO:Test_login_DDT_002:testLoginDDT:89:opening url
-2023-07-11 19:50:53,979:INFO:Test_Login_001:test_HomePage_other:84:Test_HomePage_other is started start
-2023-07-11 19:50:53,980:INFO:Test_Login_001:test_HomePage_other:86:invoking browser
-2023-07-11 19:50:53,981:INFO:Test_Login_001:test_HomePage_other:87:opening URL
-2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:27:test case testLoginPage started
-2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:29:invoking browser
-2023-07-11 19:50:53,985:INFO:Test_Login_001:testLoginPage:30:opening URL
-2023-07-11 19:50:53,990:INFO:Test_Login_001:testLoginPage:37:testLoginPage is passed
-2023-07-11 19:50:54,090:INFO:Test_Login_001:test_HomePage_other:91: entering email
-2023-07-11 19:50:54,131:INFO:Test_login_DDT_002:testLoginDDT:103:enter username-->admin@yourstore.com
-2023-07-11 19:50:54,186:INFO:Test_Login_001:test_HomePage_other:93: enetring password
-2023-07-11 19:50:54,211:INFO:Test_login_DDT_002:testLoginDDT:105:enter password-->admin
-2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
-2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:50:invoking browser
-2023-07-11 19:50:55,604:INFO:Test_Login_001:test_HomePage:51:opening URL
-2023-07-11 19:50:55,718:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
-2023-07-11 19:50:55,799:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
-2023-07-11 19:50:57,420:INFO:Test_Login_001:test_HomePage_other:95:click on login
-2023-07-11 19:50:57,458:INFO:Test_login_DDT_002:testLoginDDT:107:click on login button
-2023-07-11 19:50:57,471:INFO:Test_login_DDT_002:testLoginDDT:124:login Failed with --> admin@yourstore.com|admin
-2023-07-11 19:50:57,589:INFO:Test_Login_001:test_HomePage_other:102:test_HomePage passed 
-2023-07-11 19:50:58,977:INFO:Test_Login_001:test_HomePage:59:click on login
-2023-07-11 19:50:58,984:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
-2023-07-11 20:01:53,841:INFO:Test_Login_001:test_HomePage_other:86:Test_HomePage_other is started start
-2023-07-11 20:01:53,842:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
-2023-07-11 20:01:53,842:INFO:Test_Login_001:test_HomePage_other:89:opening URL
-2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
-2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:50:invoking browser
-2023-07-11 20:01:53,905:INFO:Test_Login_001:test_HomePage:51:opening URL
-2023-07-11 20:01:53,962:INFO:Test_Login_001:test_HomePage_other:93: entering email
-2023-07-11 20:01:54,025:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
-2023-07-11 20:01:54,051:INFO:Test_Login_001:test_HomePage_other:95: enetring password
-2023-07-11 20:01:54,115:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
-2023-07-11 20:01:54,428:INFO:Test_login_DDT_002:testLoginDDT:16:Test Test_login_DDT_002 is started
-2023-07-11 20:01:54,429:INFO:Test_login_DDT_002:testLoginDDT:18:invoking browser
-2023-07-11 20:01:54,429:INFO:Test_login_DDT_002:testLoginDDT:19:opening url
-2023-07-11 20:01:54,568:INFO:Test_login_DDT_002:testLoginDDT:33:enter username-->admin@yourstore.com
-2023-07-11 20:01:54,655:INFO:Test_login_DDT_002:testLoginDDT:35:enter password-->admin
-2023-07-11 20:01:56,425:INFO:Test_Login_001:testLoginPage:24:test case testLoginPage started
-2023-07-11 20:01:56,426:INFO:Test_Login_001:testLoginPage:26:invoking browser
-2023-07-11 20:01:56,427:INFO:Test_Login_001:testLoginPage:27:opening URL
-2023-07-11 20:01:56,434:INFO:Test_Login_001:testLoginPage:34:testLoginPage is passed
-2023-07-11 20:01:58,816:INFO:Test_login_DDT_002:testLoginDDT:37:click on login button
-2023-07-11 20:01:58,829:INFO:Test_login_DDT_002:testLoginDDT:54:login Failed with --> admin@yourstore.com|admin
-2023-07-11 20:01:58,898:INFO:Test_Login_001:test_HomePage_other:97:click on login
-2023-07-11 20:01:58,924:INFO:Test_Login_001:test_HomePage:59:click on login
-2023-07-11 20:01:58,928:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
-2023-07-11 20:01:59,043:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 
-2023-07-11 20:13:50,428:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
-rted start
-2023-07-11 20:13:50,445:INFO:Test_Login_001:testLoginPage:27:invoking browser
-2023-07-11 20:13:50,445:INFO:Test_login_DDT_002:testLoginDDT:20:invoking browser
-2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
-2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage:50:invoking browser
-2023-07-11 20:13:50,445:INFO:Test_Login_001:testLoginPage:28:opening URL
-2023-07-11 20:13:50,445:INFO:Test_login_DDT_002:testLoginDDT:21:opening url
-2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage_other:89:opening URL
-2023-07-11 20:13:50,445:INFO:Test_Login_001:test_HomePage:51:opening URL
-2023-07-11 20:13:50,812:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
-2023-07-11 20:13:50,812:INFO:Test_Login_001:test_HomePage_other:93: entering email
-2023-07-11 20:13:50,815:INFO:Test_login_DDT_002:testLoginDDT:35:enter username-->admin@yourstore.com
-2023-07-11 20:13:50,976:INFO:Test_login_DDT_002:testLoginDDT:37:enter password-->admin
-2023-07-11 20:13:50,977:INFO:Test_Login_001:test_HomePage_other:95: enetring password
-2023-07-11 20:13:50,979:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
-2023-07-11 20:13:54,959:INFO:Test_Login_001:test_HomePage_other:97:click on login
-2023-07-11 20:13:54,980:INFO:Test_login_DDT_002:testLoginDDT:39:click on login button
-2023-07-11 20:13:54,992:INFO:Test_login_DDT_002:testLoginDDT:56:login Failed with --> admin@yourstore.com|admin
-2023-07-11 20:13:55,055:INFO:Test_Login_001:test_HomePage:59:click on login
-2023-07-11 20:13:55,065:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
-2023-07-11 20:13:55,137:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 
-2023-07-11 20:29:26,307:INFO:Test_login_DDT_002:testLoginDDT:18:Test Test_login_DDT_002 is started
-2023-07-11 20:29:26,307:INFO:Test_login_DDT_002:testLoginDDT:20:invoking browser
-2023-07-11 20:29:26,308:INFO:Test_login_DDT_002:testLoginDDT:21:opening url
-2023-07-11 20:29:26,737:INFO:Test_login_DDT_002:testLoginDDT:35:enter username-->admin@yourstore.com
-2023-07-11 20:29:27,033:INFO:Test_login_DDT_002:testLoginDDT:37:enter password-->admin
-2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:25:test case testLoginPage started
-2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:27:invoking browser
-2023-07-11 20:29:27,057:INFO:Test_Login_001:testLoginPage:28:opening URL
-2023-07-11 20:29:27,449:INFO:Test_Login_001:test_HomePage_other:86:Test_HomePage_other is started start
-2023-07-11 20:29:27,450:INFO:Test_Login_001:test_HomePage_other:88:invoking browser
-2023-07-11 20:29:27,450:INFO:Test_Login_001:test_HomePage_other:89:opening URL
-2023-07-11 20:29:27,805:INFO:Test_Login_001:test_HomePage_other:93: entering email
-2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:48:Test_HomePage is started start
-2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:50:invoking browser
-2023-07-11 20:29:27,867:INFO:Test_Login_001:test_HomePage:51:opening URL
-2023-07-11 20:29:28,173:INFO:Test_Login_001:test_HomePage_other:95: enetring password
-2023-07-11 20:29:28,346:INFO:Test_Login_001:test_HomePage:55: entering email -->admin@yourstore.com
-2023-07-11 20:29:28,698:INFO:Test_Login_001:test_HomePage:57: enetring password -->admin
-2023-07-11 20:29:31,900:INFO:Test_login_DDT_002:testLoginDDT:39:click on login button
-2023-07-11 20:29:31,961:INFO:Test_login_DDT_002:testLoginDDT:56:login Failed with --> admin@yourstore.com|admin
-2023-07-11 20:29:32,691:INFO:Test_Login_001:test_HomePage_other:97:click on login
-2023-07-11 20:29:32,715:INFO:Test_Login_001:test_HomePage:59:click on login
-2023-07-11 20:29:32,736:INFO:Test_Login_001:test_HomePage:66:test_HomePage passed 
-2023-07-11 20:29:33,015:INFO:Test_Login_001:test_HomePage_other:104:test_HomePage passed 
+2023-08-16 19:00:50,438:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:00:50,439:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:00:50,954:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:00:51,318:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:00:57,098:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:00:57,098:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:00:57,208:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:01:01,161:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:01:06,067:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:01:08,357:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:01:12,576:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:01:14,661:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:01:16,899:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:01:21,981:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:01:24,169:INFO:Test_Giftcard:test_giftcard:85:Test case giftCard is passed
+2023-08-16 19:01:24,463:INFO:Test_Giftcard:test_giftcard:87:driver closed
+2023-08-16 19:07:57,685:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:07:57,685:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:07:57,874:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:07:58,209:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:08:06,490:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:08:06,490:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:32:07,724:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:32:07,725:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:32:07,842:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:32:07,930:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:32:12,054:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:32:12,055:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:32:12,124:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:32:17,082:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:32:21,656:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:32:23,925:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:32:28,023:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:32:30,089:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:32:32,161:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:32:36,368:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:37:02,226:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:37:02,226:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:37:02,347:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:37:02,433:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:37:06,107:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:37:06,107:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:37:06,172:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:37:10,401:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:37:15,168:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:37:17,279:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:37:21,359:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:37:23,416:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:37:25,476:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:37:29,036:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:37:31,146:INFO:Test_Giftcard:test_giftcard:91:Test case is failed
+2023-08-16 19:40:59,568:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:40:59,568:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:40:59,683:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:40:59,773:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:41:07,670:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:41:07,670:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:41:07,742:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:41:13,389:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:41:17,209:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:41:19,320:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:41:23,391:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:41:25,438:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:41:27,498:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:41:30,972:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:41:33,084:INFO:Test_Giftcard:test_giftcard:91:Test case is failed
+2023-08-16 19:41:33,317:INFO:Test_Giftcard:test_giftcard:94:sceenshot has been saved
+2023-08-16 19:43:24,778:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:43:24,779:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:43:24,894:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:43:24,978:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:43:29,367:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:43:29,367:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:43:29,437:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:43:33,866:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:43:37,800:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:43:39,889:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:43:43,966:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:43:46,059:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:43:48,126:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:43:51,656:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:43:53,782:INFO:Test_Giftcard:test_giftcard:91:Test case is failed
+2023-08-16 19:43:53,888:INFO:Test_Giftcard:test_giftcard:94:sceenshot has been saved
+2023-08-16 19:44:51,466:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-16 19:44:51,467:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-16 19:44:51,583:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-16 19:44:51,670:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-16 19:44:54,936:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-16 19:44:54,936:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-16 19:44:54,998:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-16 19:44:59,239:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-16 19:45:03,621:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-16 19:45:05,709:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-16 19:45:09,807:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-16 19:45:11,860:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-16 19:45:13,922:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-16 19:45:17,461:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-16 19:45:19,584:INFO:Test_Giftcard:test_giftcard:91:Test case is failed
+2023-08-16 19:45:19,692:INFO:Test_Giftcard:test_giftcard:94:sceenshot has been saved
+2023-08-17 12:24:03,340:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 12:24:03,362:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 12:26:11,511:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 12:26:11,512:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 12:29:02,775:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 12:29:02,776:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 13:28:14,146:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 13:28:14,194:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 13:28:14,899:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 13:28:15,291:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 13:28:20,732:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 13:28:20,733:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 13:36:39,353:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 13:36:39,353:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 13:36:39,461:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 13:36:39,541:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 13:36:43,976:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 13:36:43,976:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 14:33:42,612:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 14:33:42,612:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 14:33:43,202:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 14:33:43,565:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 14:33:49,446:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 14:33:49,446:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 14:38:30,727:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 14:38:30,728:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 14:38:31,182:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 14:38:31,595:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 14:38:35,212:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 14:38:35,212:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 14:42:45,113:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 14:42:45,115:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 14:42:45,628:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 14:42:46,091:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 14:42:51,345:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 14:42:51,345:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 14:42:51,730:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-17 14:42:56,767:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-17 14:43:00,653:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-17 14:43:03,119:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-17 14:43:07,363:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-17 14:43:09,562:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-17 14:43:11,778:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-17 14:43:15,825:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-17 14:43:17,974:INFO:Test_Giftcard:test_giftcard:91:Test case is failed
+2023-08-17 14:43:18,335:INFO:Test_Giftcard:test_giftcard:93:sceenshot has been saved
+2023-08-17 14:45:35,936:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 14:45:35,937:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 14:45:36,452:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 14:45:36,822:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 14:45:41,372:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 14:45:41,372:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 14:45:41,630:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-17 14:45:45,666:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-17 14:45:48,954:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-17 14:45:51,289:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-17 14:45:55,533:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-17 14:45:57,801:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-17 14:46:00,053:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-17 14:46:04,415:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-17 14:46:06,646:INFO:Test_Giftcard:test_giftcard:85:Test case giftCard is passed
+2023-08-17 14:46:07,555:INFO:Test_Giftcard:test_giftcard:88:driver closed

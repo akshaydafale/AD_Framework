@@ -27,9 +27,11 @@ def setup():
     else:
         # for headless we have to write 3 line code
         from selenium.webdriver.common.service import Service
-        headless_option = webdriver.ChromeOptions()
-        headless_option.add_argument("headless")
-        driver=webdriver.Chrome(options= headless_option)
+        # headless_option = webdriver.ChromeOptions()
+        # headless_option.add_argument("headless")
+        # driver=webdriver.Chrome(options= headless_option)
+        # print('Launching Chrome browser ')
+        driver=webdriver.Chrome()
         print('Launching Chrome browser ')
 
     driver.get('https://admin-demo.nopcommerce.com')
