@@ -159,3 +159,42 @@
 2023-08-17 14:46:04,415:INFO:Test_Giftcard:test_giftcard:76:click on save
 2023-08-17 14:46:06,646:INFO:Test_Giftcard:test_giftcard:85:Test case giftCard is passed
 2023-08-17 14:46:07,555:INFO:Test_Giftcard:test_giftcard:88:driver closed
+2023-08-17 16:53:38,596:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 16:53:38,743:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 16:53:40,043:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 16:53:40,416:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 16:53:45,650:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 16:53:45,651:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 16:53:45,884:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-17 16:55:50,181:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 16:55:50,182:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 16:55:50,688:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 16:55:51,041:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 16:55:55,923:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 16:55:55,923:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 16:55:56,059:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-17 16:56:00,871:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-17 16:56:04,673:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-17 16:56:07,818:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-17 16:56:11,945:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-17 16:56:14,158:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-17 16:56:16,276:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-17 16:56:20,685:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-17 16:56:22,978:INFO:Test_Giftcard:test_giftcard:85:Test case giftCard is passed
+2023-08-17 16:56:23,365:INFO:Test_Giftcard:test_giftcard:88:driver closed
+2023-08-17 17:03:13,695:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
+2023-08-17 17:03:13,696:INFO:Test_Giftcard:test_giftcard:23:opening url
+2023-08-17 17:03:15,888:INFO:Test_Giftcard:test_giftcard:27:enter email-->admin@yourstore.com
+2023-08-17 17:03:16,282:INFO:Test_Giftcard:test_giftcard:29:enter password-->admin
+2023-08-17 17:03:23,424:INFO:Test_Giftcard:test_giftcard:31:click on login
+2023-08-17 17:03:23,424:INFO:Test_Giftcard:test_giftcard:32:Login succesfull
+2023-08-17 17:03:23,689:INFO:Test_Giftcard:test_giftcard:36:click on sales
+2023-08-17 17:03:28,044:INFO:Test_Giftcard:test_giftcard:41:click on gift card
+2023-08-17 17:03:33,213:INFO:Test_Giftcard:test_giftcard:46:click on add new
+2023-08-17 17:03:35,537:INFO:Test_Giftcard:test_giftcard:51:select option from gift card type
+2023-08-17 17:03:39,765:INFO:Test_Giftcard:test_giftcard:61:click on check box
+2023-08-17 17:03:41,881:INFO:Test_Giftcard:test_giftcard:66:generate coupoun code
+2023-08-17 17:03:44,135:INFO:Test_Giftcard:test_giftcard:71:enter recipient name
+2023-08-17 17:03:51,370:INFO:Test_Giftcard:test_giftcard:76:click on save
+2023-08-17 17:03:53,848:INFO:Test_Giftcard:test_giftcard:85:Test case giftCard is passed
+2023-08-17 17:03:54,183:INFO:Test_Giftcard:test_giftcard:88:driver closed
