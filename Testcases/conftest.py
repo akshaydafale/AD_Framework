@@ -34,11 +34,11 @@ def setup():
         driver=webdriver.Chrome()
         print('Launching Chrome browser ')
 
-    driver.get('https://admin-demo.nopcommerce.com')
+
+    # driver.get('https://admin-demo.nopcommerce.com')
     return driver
 
-## always remember setup inherit in every test cases and after that --> driver =setup
-
+## always remember setup inherit in every test cases and after that --> self.driver =setup
 
 
 

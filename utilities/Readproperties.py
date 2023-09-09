@@ -1,6 +1,6 @@
 
 
-import configparser # it is a library
+import configparser # it is a library(class)
 
 object_config=configparser.RawConfigParser()
 object_config.read("C:\\Users\\prati\\PycharmProjects\\CT10\\AD_framework\\configuration\\config.ini")

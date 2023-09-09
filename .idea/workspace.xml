@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf89954-59b0-43ae-9bc4-adbfacb4c8e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/AD_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AD_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/NopCommerse.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/NopCommerse.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/myhtmlreport" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/myhtmlreport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sanity.bat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sanity.bat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_Giftcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Giftcard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/TestCase_giftcard_failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/Readproperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/Readproperties.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prati/PycharmProjects/CT10/Practise_Programme/Programme BY Sagar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prati/PycharmProjects/CT10/SeleniumProject&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>

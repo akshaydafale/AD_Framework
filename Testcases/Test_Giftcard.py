@@ -16,10 +16,11 @@ class Test_Giftcard():
     password = Readconfig.getPassword()
     loger = LogGenerator.loggen()
 
-    def test_giftcard(self,setup):
+    def test_giftcard(self,setup):     # setup is parameter
 
         self.driver = setup
         self.loger.info('Launching chrome browser')
+        self.driver.get(self.url)
         self.loger.info('opening url')
 
         lp_object = LoginPage(self.driver)
@@ -94,3 +95,4 @@ class Test_Giftcard():
             assert True == False  # if this will write at start then after that not execute so it will write at last
 
             # asserttion error means test case fail
+
