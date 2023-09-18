@@ -1,7 +1,8 @@
-2023-09-08 16:38:16,795:INFO:Test_Giftcard:test_giftcard:22:Launching chrome browser
-2023-09-08 16:38:23,182:INFO:Test_Giftcard:test_giftcard:24:opening url
-2023-09-08 16:38:23,294:INFO:Test_Giftcard:test_giftcard:28:enter email-->admin@yourstore.com
-2023-09-08 16:38:23,380:INFO:Test_Giftcard:test_giftcard:30:enter password-->admin
-2023-09-08 16:38:29,115:INFO:Test_Giftcard:test_giftcard:32:click on login
-2023-09-08 16:38:29,115:INFO:Test_Giftcard:test_giftcard:33:Login succesfull
-2023-09-08 16:38:29,178:INFO:Test_Giftcard:test_giftcard:37:click on sales
+2023-09-18 13:59:48,039:INFO:Test_RegisterPage:test_RegisterPage_001:27:Launching Crome browser
+2023-09-18 13:59:54,012:INFO:Test_RegisterPage:test_RegisterPage_001:45:Verifying test_RegisterPage_001 start
+2023-09-18 13:59:54,013:INFO:Test_RegisterPage:test_RegisterPage_001:47:rp_object is created from class RegisterPage() 
+2023-09-18 14:00:01,783:INFO:Test_RegisterPage:test_RegisterPage_001:69:ClickOn_topMenu_english
+2023-09-18 14:06:09,111:INFO:Test_RegisterPage:test_RegisterPage_001:27:Launching Crome browser
+2023-09-18 14:06:15,102:INFO:Test_RegisterPage:test_RegisterPage_001:45:Verifying test_RegisterPage_001 start
+2023-09-18 14:06:15,103:INFO:Test_RegisterPage:test_RegisterPage_001:47:rp_object is created from class RegisterPage() 
+2023-09-18 14:06:22,958:INFO:Test_RegisterPage:test_RegisterPage_001:69:ClickOn_topMenu_english

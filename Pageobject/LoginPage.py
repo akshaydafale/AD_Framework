@@ -5,7 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-
 class LoginPage():
     textbox_Username_id='Email'
     textbox_password_id='Password'

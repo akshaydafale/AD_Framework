@@ -4,11 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions
 
 driver=webdriver.Chrome()
 
 
-class RegisterPage:
+class RegisterPage():
 
     mainMenu_Help_xpath='/html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[10]/a/p'
     subMenu_Traning_xpath='/html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[10]/ul/li[1]/a/p'
@@ -34,89 +36,82 @@ class RegisterPage:
     def __init__(self,driver):
         self.driver=driver
 
-    def ClickOn_mainMenu_Help(self):
-        driver.find_element(By.XPATH,self.mainMenu_Help_xpath).click()
+    def clickOn_mainMenu_Help(self):
+        self.driver.find_element(By.XPATH,self.mainMenu_Help_xpath).click()
+        # locator=(By.XPATH,self.mainMenu_Help_xpath)
+        # element=WebDriverWait(driver,10).until(expected_conditions.presence_of_element_located(locator)).click()
 
-    def ClickOn_subMenu_Traning(self):
-        driver.find_element(By.XPATH,self.subMenu_Traning_xpath).click()
+    def clickOn_subMenu_Traning(self):
+        self.driver.find_element(By.XPATH,self.subMenu_Traning_xpath).click()
 
-    def ClickOn_topMenu_english(self):
+    def clickOn_topMenu_english(self):
 
-        Top_englishElement=driver.find_element(By.XPATH,self.topMenu_english_xpath)
-        Sub_englishElement = driver.find_element(By.XPATH, self.subMenu_english_xpath)
+        Top_englishElement=self.driver.find_element(By.XPATH,self.topMenu_english_xpath)
+        Sub_englishElement = self.driver.find_element(By.XPATH, self.subMenu_english_xpath)
 
-        ActionChain_object=ActionChains(driver)
-        ActionChain_object.move_to_element(Top_englishElement).move_to_element(Sub_englishElement)
+        ActionChain_object=ActionChains(self.driver)
+        ActionChain_object.move_to_element(Top_englishElement).move_to_element(Sub_englishElement).click().perform()
 
-
-    def ClickOn_userActionIcon(self):
-
-        ActionChain_object = ActionChains(driver)
-        ActionChain_object.move_to_element(driver.find_element(By.XPATH,self.userActionIcon_xpath)).move_to_element(driver.find_element(By.XPATH,self.linkRegisterPage_xpath))
-
-    def Set_firstName(self,firstName):
-        driver.find_element(By.XPATH,self.textbox_FirstName_xpath).clear()
-        driver.find_element(By.XPATH, self.textbox_FirstName_xpath).send_keys(firstName)
+    def clickOn_userActionIcon(self):
 
 
-    def Set_lastName(self,lastName):
-        driver.find_element(By.XPATH,self.textbox_LastName_xpath).clear()
-        driver.find_element(By.XPATH,self.textbox_LastName_xpath).send_keys(lastName)
-
-    def Set_Email(self,Email):
-        driver.find_element(By.XPATH,self.textbox_Email_xpath).clear()
-        driver.find_element(By.XPATH,self.textbox_Email_xpath).send_keys(Email)
+        ActionChain_object = ActionChains(self.driver)
+        ActionChain_object.move_to_element(self.driver.find_element(By.XPATH,self.userActionIcon_xpath)).move_to_element(self.driver.find_element(By.XPATH,self.linkRegisterPage_xpath)).click().perform()
 
 
-    def Set_ConfirmEmail(self,ConfirmEmail):
-        driver.find_element(By.XPATH,self.textbox_ConfirmEmail_xpath).clear()
-        driver.find_element(By.XPATH,self.textbox_ConfirmEmail_xpath).send_keys(ConfirmEmail)
+    def set_firstName(self,firstName):
+        self.driver.find_element(By.XPATH,self.textbox_FirstName_xpath).clear()
+        self.driver.find_element(By.XPATH, self.textbox_FirstName_xpath).send_keys(firstName)
 
+    def set_lastName(self,lastName):
+        self.driver.find_element(By.XPATH,self.textbox_LastName_xpath).clear()
+        self.driver.find_element(By.XPATH,self.textbox_LastName_xpath).send_keys(lastName)
 
-    def Set_Username(self,Username):
-        driver.find_element(By.XPATH,self.textbox_Username_xpath).clear()
-        driver.find_element(By.XPATH,self.textbox_Username_xpath).send_keys(Username)
+    def set_Email(self,Email):
+        self.driver.find_element(By.XPATH,self.textbox_Email_xpath).clear()
+        self.driver.find_element(By.XPATH,self.textbox_Email_xpath).send_keys(Email)
 
-    def ClickOn_CheckAvailibility(self):
-        driver.find_element(By.XPATH,self.button_CheckAvailibility_xpath).click()
+    def set_ConfirmEmail(self,ConfirmEmail):
+        self.driver.find_element(By.XPATH,self.textbox_ConfirmEmail_xpath).clear()
+        self.driver.find_element(By.XPATH,self.textbox_ConfirmEmail_xpath).send_keys(ConfirmEmail)
 
+    def set_Username(self,Username):
+        self.driver.find_element(By.XPATH,self.textbox_Username_xpath).clear()
+        self.driver.find_element(By.XPATH,self.textbox_Username_xpath).send_keys(Username)
 
-    def Set_Country(self,Country):
+    def clickOn_CheckAvailibility(self):
+        self.driver.find_element(By.XPATH,self.button_CheckAvailibility_xpath).click()
 
-        dd_Country_object=Select(driver.find_element(By.XPATH,self.dd_Country_xpath))
+    def set_Country(self,Country):
+
+        dd_Country_object=Select(self.driver.find_element(By.XPATH,self.dd_Country_xpath))
         dd_Country_object.select_by_visible_text(Country)
 
-
-    def Click0n_Newsletter(self):
-        driver.find_element(By.XPATH,self.cb_Newsletter_xpath).click()
-
+    def click0n_Newsletter(self):
+        self.driver.find_element(By.XPATH,self.cb_Newsletter_xpath).click()
 
     def Set_Password(self,password):
-        driver.find_element(By.XPATH, self.textbox_Password_xpath).send_keys(password)
+        self.driver.find_element(By.XPATH, self.textbox_Password_xpath).send_keys(password)
 
+    def set_ConfirmPassword(self,conf_password):
+        self.driver.find_element(By.XPATH, self.textbox_ConfirmPassword_xpath).send_keys(conf_password)
 
-    def Set_ConfirmPassword(self,conf_password):
-        driver.find_element(By.XPATH, self.textbox_ConfirmPassword_xpath).send_keys(conf_password)
+    def set_MyCompanyPrimarily(self,option):
 
-
-    def Set_MyCompanyPrimarily(self,option):
-
-        dd_MyCompanyPrimarily_object=Select(driver.find_element(By.XPATH,self.dd_MyCompanyPrimarily_xpath))
+        dd_MyCompanyPrimarily_object=Select(self.driver.find_element(By.XPATH,self.dd_MyCompanyPrimarily_xpath))
         dd_MyCompanyPrimarily_object.select_by_visible_text(option)
 
+    def set_MyMainActivity(self,Activity):
 
-    def Set_MyMainActivity(self,Activity):
-
-        dd_MyMainActivity_object=Select(driver.find_element(By.XPATH,self.dd_MyMainActivity_xpath))
+        dd_MyMainActivity_object=Select(self.driver.find_element(By.XPATH,self.dd_MyMainActivity_xpath))
         dd_MyMainActivity_object.select_by_visible_text(Activity)
 
-    def Set_HowManyPeople(self, number):
-        dd_HowManyPeople_xpath=Select(driver.find_element(By.XPATH,self.dd_HowManyPeople_xpath))
+    def set_HowManyPeople(self, number):
+        dd_HowManyPeople_xpath=Select(self.driver.find_element(By.XPATH,self.dd_HowManyPeople_xpath))
         dd_HowManyPeople_xpath.select_by_visible_text(number)
 
-
-    def ClickOn_Register(self):
-        driver.find_element(By.XPATH,self.btn_Register_xpath).click()
+    def clickOn_Register(self):
+        self.driver.find_element(By.XPATH,self.btn_Register_xpath).click()
 
 
 

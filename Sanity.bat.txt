@@ -1,4 +1,3 @@
 pytest -rA  .\Testcases\Test_Giftcard.py --html=Reports\myhtmlreport.html  -m 'sanity' -n auto
 
 
-

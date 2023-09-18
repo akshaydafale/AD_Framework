@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>myhtmlreport</title>
+    <title>MyHTMLReport.html</title>
     <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
   <body onLoad="init()">
     <script>/* This Source Code Form is subject to the terms of the Mozilla Public
@@ -252,8 +252,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>myhtmlreport</h1>
-    <p>Report generated on 17-Aug-2023 at 16:56:25 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <h1>MyHTMLReport.html</h1>
+    <p>Report generated on 16-Sep-2023 at 19:24:01 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -264,13 +264,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Windows-10-10.0.19041-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"allure-pytest": "2.13.1", "html": "3.2.0", "metadata": "2.0.4", "xdist": "3.2.1"}</td></tr>
+        <td>{"Faker": "18.13.0", "allure-pytest": "2.13.1", "html": "3.2.0", "metadata": "2.0.4", "xdist": "3.2.1"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.7.9</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 48.35 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 59.10 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -281,28 +281,29 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
+          <td class="col-result">Failed</td>
           <td class="col-name">Testcases/Test_Giftcard.py::Test_Giftcard::test_giftcard</td>
-          <td class="col-duration">43.02</td>
+          <td class="col-duration">57.65</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw0] win32 -- Python 3.7.9 C:\Users\prati\PycharmProjects\CT10\AD_framework\venv\Scripts\python.exe<br/>[gw0] win32 -- Python 3.7.9 C:\Users\prati\PycharmProjects\CT10\AD_framework\venv\Scripts\python.exe[gw0] win32 -- Python 3.7.9 C:\Users\prati\PycharmProjects\CT10\AD_framework\venv\Scripts\python.exe[gw0] win32 -- Python 3.7.9 C:\Users\prati\PycharmProjects\CT10\AD_framework\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Launching Chrome browser 
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Giftcard:Test_Giftcard.py:22 Launching chrome browser
-INFO     Test_Giftcard:Test_Giftcard.py:23 opening url
-INFO     Test_Giftcard:Test_Giftcard.py:27 enter email--&gt;admin@yourstore.com
-INFO     Test_Giftcard:Test_Giftcard.py:29 enter password--&gt;admin
-INFO     Test_Giftcard:Test_Giftcard.py:31 click on login
-INFO     Test_Giftcard:Test_Giftcard.py:32 Login succesfull
-INFO     Test_Giftcard:Test_Giftcard.py:36 click on sales
-INFO     Test_Giftcard:Test_Giftcard.py:41 click on gift card
-INFO     Test_Giftcard:Test_Giftcard.py:46 click on add new
-INFO     Test_Giftcard:Test_Giftcard.py:51 select option from gift card type
-INFO     Test_Giftcard:Test_Giftcard.py:61 click on check box
-INFO     Test_Giftcard:Test_Giftcard.py:66 generate coupoun code
-INFO     Test_Giftcard:Test_Giftcard.py:71 enter recipient name
-INFO     Test_Giftcard:Test_Giftcard.py:76 click on save
-INFO     Test_Giftcard:Test_Giftcard.py:85 Test case giftCard is passed
-INFO     Test_Giftcard:Test_Giftcard.py:88 driver closed<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">self = &lt;Testcases.Test_Giftcard.Test_Giftcard object at 0x00000239B707D308&gt;, setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;6e697da6677c836aec04abb79490507b&quot;)&gt;<br/><br/>    def test_giftcard(self,setup):     # setup is parameter<br/>    <br/>        self.driver = setup<br/>        self.loger.info(&#x27;Launching chrome browser&#x27;)<br/>        self.driver.get(self.url)<br/>        self.loger.info(&#x27;opening url&#x27;)<br/>        self.driver.maximize_window()<br/>    <br/>        lp_object = LoginPage(self.driver)<br/>        lp_object.setEmail(self.email)<br/>        self.loger.info(&#x27;enter email--&gt;&#x27; + self.email)<br/>        lp_object.setPass(self.password)<br/>        self.loger.info(&#x27;enter password--&gt;&#x27; + self.password)<br/>        lp_object.cliclOnLogin()<br/>        self.loger.info(&#x27;click on login&#x27;)<br/>        self.loger.info(&#x27;Login succesfull&#x27;)<br/>    <br/>        gc_Object = GiftCard(self.driver) # object naver need self<br/>        gc_Object.clickOnSales()<br/>        self.loger.info(&#x27;click on sales&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        gc_Object.clickOnGiftcard()<br/>        self.loger.info(&#x27;click on gift card&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        gc_Object.clickOnAddNew()<br/>        self.loger.info(&#x27;click on add new&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        gc_Object.setgiftCardType(&#x27;Physical&#x27;)<br/>        self.loger.info(&#x27;select option from gift card type&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        # self.GiftCard_Object.setInitialValue(&#x27;10&#x27;)<br/>        # self.loger.info(&#x27;enterd initial value&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        gc_Object.giftCardActivated()<br/>        self.loger.info(&#x27;click on check box&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        gc_Object.generateCouponCode()<br/>        self.loger.info(&#x27;generate coupoun code&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        fake=Faker()<br/>        random_name=fake.name()<br/>    <br/>        # n=&#x27;akshay dafale&#x27;<br/>        gc_Object.setRecipientName(random_name)<br/>        self.loger.info(&#x27;enter recipient name&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        # gc_Object.setRecipientEmail(&#x27;akshay@gmail.com&#x27;)<br/>        # self.loger.info(&#x27;enter recipient Email&#x27;)<br/>        #<br/>        # time.sleep(3)<br/>    <br/>        gc_Object.clickOnSave()<br/>        self.loger.info(&#x27;click on save&#x27;)<br/>    <br/>        time.sleep(3)<br/>    <br/>        msg = &#x27;The new gift card has been added successfully.&#x27;<br/>        body = self.driver.find_element(By.TAG_NAME, &#x27;body&#x27;).text<br/>        self.loger.info(&#x27;verifying test Test_Giftcard&#x27;)<br/>    <br/>        if msg in body:<br/>            self.loger.info(&#x27;verifying msg in body&#x27;)<br/>            list_of_name=self.driver.find_elements(By.XPATH,&#x27;//*[@id=&quot;giftcards-grid&quot;]/tbody/tr/td&#x27;)<br/>            for name in list_of_name:<br/>                if name.text==&#x27;akshay dafale&#x27;:<br/>                    # print(n)<br/>                    assert True<br/>                    self.loger.info(&#x27;Test case giftCard is passed&#x27;)<br/>                    # self.driver.get_screenshot_as_png()<br/>                    self.driver.close()<br/>                    self.loger.info(&#x27;driver closed&#x27;)<br/>                    break<br/>            else:<br/>                self.loger.info(&#x27;Test case is failed&#x27;)<br/>                self.driver.get_screenshot_as_file(&#x27;.\\screenshot\\&#x27; + &#x27;TestCase_giftcard_failed.png&#x27;)<br/>                self.driver.close()<br/>                self.loger.info(&#x27;driver closed&#x27;)<br/>&gt;               assert True == False<br/><span class="error">E               assert True == False</span><br/><br/>Testcases\Test_Giftcard.py:115: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Giftcard:Test_Giftcard.py:25 Launching chrome browser
+INFO     Test_Giftcard:Test_Giftcard.py:27 opening url
+INFO     Test_Giftcard:Test_Giftcard.py:32 enter email--&gt;admin@yourstore.com
+INFO     Test_Giftcard:Test_Giftcard.py:34 enter password--&gt;admin
+INFO     Test_Giftcard:Test_Giftcard.py:36 click on login
+INFO     Test_Giftcard:Test_Giftcard.py:37 Login succesfull
+INFO     Test_Giftcard:Test_Giftcard.py:41 click on sales
+INFO     Test_Giftcard:Test_Giftcard.py:46 click on gift card
+INFO     Test_Giftcard:Test_Giftcard.py:51 click on add new
+INFO     Test_Giftcard:Test_Giftcard.py:56 select option from gift card type
+INFO     Test_Giftcard:Test_Giftcard.py:66 click on check box
+INFO     Test_Giftcard:Test_Giftcard.py:71 generate coupoun code
+INFO     Test_Giftcard:Test_Giftcard.py:80 enter recipient name
+INFO     Test_Giftcard:Test_Giftcard.py:90 click on save
+INFO     Test_Giftcard:Test_Giftcard.py:96 verifying test Test_Giftcard
+INFO     Test_Giftcard:Test_Giftcard.py:99 verifying msg in body
+INFO     Test_Giftcard:Test_Giftcard.py:111 Test case is failed
+INFO     Test_Giftcard:Test_Giftcard.py:114 driver closed<br/></div></td></tr></tbody></table></body></html>

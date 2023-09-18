@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf89954-59b0-43ae-9bc4-adbfacb4c8e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AD_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AD_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/NopCommerse.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/NopCommerse.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pageobject/GiftCard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/GiftCard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pageobject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pageobject/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pageobject/RegisterPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/myhtmlreport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sanity.bat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sanity.bat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Addcustomer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcases/Test_Giftcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_Giftcard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/Test_RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_RegisterPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcases/Test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/Test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot/TestCase_giftcard_failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/Readproperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/Readproperties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/XLutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/XLutils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prati/PycharmProjects/CT10/SeleniumProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/prati/PycharmProjects/CT10/SeleniumProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.pytest for Test_login.Test_Login_001.test_HomePage">
+}]]></component>
+  <component name="RunManager" selected="Python.conftest">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AD_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testcases/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for Test_login.Test_Login_001.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AD_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,8 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for Test_login.Test_Login_001.test_HomePage" />
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests for Test_login.Test_Login_001.test_login" />
+        <item itemvalue="Python tests.pytest for Test_login.Test_Login_001.test_HomePage" />
         <item itemvalue="Python tests.Python tests for Test_login_ddt.Test_login_ddt.test_login_ddt" />
       </list>
     </recent_temporary>

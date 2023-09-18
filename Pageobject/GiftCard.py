@@ -13,7 +13,8 @@ class GiftCard():
     text_initialValue_xpath='//*[@id="Amount"]'
     cb_giftCardActivated_xpath='//*[@id="IsGiftCardActivated"]'
     lnk_couponCode_xpath='//*[@id="generateCouponCode"]'
-    text_recipientName_xpath='//*[@id="generateCouponCode"]'
+    text_recipientName_xpath='//*[@id="RecipientName"]'
+    text_recipientEmail_xpath='//*[@id="RecipientEmail"]'
     lnk_save_xpath='/html/body/div[3]/div[1]/form/div[1]/div/button[1]'
 
 
@@ -46,12 +47,14 @@ class GiftCard():
     def generateCouponCode(self):
         self.driver.find_element(By.XPATH,self.lnk_couponCode_xpath).click()
 
-    def setRecipientName(self,value):
-        self.driver.find_element(By.XPATH, self.text_recipientName_xpath).send_keys(value)
+    def setRecipientName(self,name):
+        self.driver.find_element(By.XPATH, self.text_recipientName_xpath).send_keys(name)
+
+    def setRecipientEmail(self,Email):
+        self.driver.find_element(By.XPATH, self.text_recipientEmail_xpath).send_keys(Email)
 
     def clickOnSave(self):
         self.driver.find_element(By.XPATH,self.lnk_save_xpath).click()
-
 
 
 
